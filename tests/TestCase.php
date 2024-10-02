@@ -2,9 +2,9 @@
 
 namespace GeniJaho\LaravelTestGenerator\Tests;
 
+use GeniJaho\LaravelTestGenerator\LaravelTestGeneratorServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use GeniJaho\LaravelTestGenerator\LaravelTestGeneratorServiceProvider;
 
 class TestCase extends Orchestra
 {

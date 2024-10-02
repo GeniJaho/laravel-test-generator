@@ -2,9 +2,9 @@
 
 namespace GeniJaho\LaravelTestGenerator;
 
+use GeniJaho\LaravelTestGenerator\Commands\LaravelTestGeneratorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use GeniJaho\LaravelTestGenerator\Commands\LaravelTestGeneratorCommand;
 
 class LaravelTestGeneratorServiceProvider extends PackageServiceProvider
 {
